@@ -84,6 +84,7 @@ class MainActivity : AppCompatActivity(), RecyclerViewClickListener {
         projek = ModelProjek("Real Madrid", "vs", "Liverpool", "16 Maret 2023", "03.00")
         projekList2.add(projek)
         projekAdapter.notifyDataSetChanged()
+
     }
 
 
